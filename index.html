@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/99ccc8e085.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+</head>
+<body>
+
+
+  <!-- <<<<<Navigation Bar>>>>>>> -->
+    <nav class="navbar">
+        <i class="material-icons menu-icon">
+          menu
+        </i>
+        <div class="logo">
+          <img src="./walmartLogo.svg" alt="logo">
+          <p id="log1"><b>Department</b></p>
+          <p id="log2"><b>Services</b></p>
+          <div class="text">
+          </div>
+              
+        
+        <div class="flex justify-center">
+          <div class="mb-3 xl:w-96">
+            <div class="input-group relative flex flex-wrap items-stretch w-full mb-4 Serach_box">
+              <input type="search"
+                class="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none input_box"
+                placeholder="Search Everything at Walmart and in Store" aria-label="Search" aria-describedby="button-addon2">
+              <button
+                class="btn inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700  focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+                type="button" id="button-addon2">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="w-4 search_icon" role="img"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path fill="currentColor"
+                    d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="nav-right-container">
+          <div id="l1">
+<div class="nr1">
+  <span id="n1">Reorder</span>
+  <span id="n2">My Items</span>
+</div>
+          </div>
+          <div id="l2">
+<p class="nr2">
+  <span id="n3">Sign In</span>
+  <span id="n4">Account</span>
+</p>
+          </div>
+          <div id="l3">
+<p class="nr3">
+  <span id="n5">Cart</span>
+  <span id="n6">$0.00</span>
+</p>
+          </div>
+        </div>
+        
+      </nav>
+
+
+
+
+<!-- <<<<<Body  Section Starts Here>>>>> -->
+
+ 
+      <section class="text-gray-600 body-font">
+        
+        <div id="Parent-Container">
+          <div id="Address">
+            <a href="#" class="zero"> 
+              Sacramento, 95829 &nbspSacramento Supercenter
+              </a> 
+        
+          </div>
+        <div id="essentials">
+        <a href="https://www.walmart.com/cp/1735450" class="zeroth">Grocery and Essentials</a> 
+        <a href="https://www.walmart.com/cp/electronics/3944" class="zeroth">Tech</a> 
+        <a href="https://www.walmart.com/cp/clothing/5438" class="zeroth">Fashion</a> 
+        <a href="https://www.walmart.com/cp/home/4044" class="zeroth">Home</a> 
+        <a href="https://www.walmart.com/shop/col/top-toys" class="zeroth">Top Toys List</a> 
+        <a href="https://www.walmart.com/ip/PS5-Console-Horizon-Forbidden-West-Bundle/884437848?athbdg=L1600" class="zeroth">PlayStation 5</a> 
+        <a href="https://www.walmart.com/shop/deals/flash-picks" class="zeroth">Flash Picks</a> 
+        </div>
+        </div>
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4 body_container">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block img_container" src="./xbox.jpeg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Consoles</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">X-box Limited Edition</h2>
+                <p class="mt-1">$516.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block img_container" src="./acer.jpeg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Laptops</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Predator Helios 500</h2>
+                <p class="mt-1">$1599.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block img_container" src="./hogs.jpeg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">PS4 Preorder</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Hogwarts Legacy</h2>
+                <p class="mt-1">$59.99</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block img_container" src="./beer.jpeg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Beverages</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Corona Mexican Beer</h2>
+                <p class="mt-1">$18.40</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block img_container" src="./pants.webp">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Clothing Men</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Wrangler Men's Regular Fit Jean with Flex</h2>
+                <p class="mt-1">$16.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block img_container" src="./motul.jpeg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Engine oil</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Motul 5W50 5L Synthetic Engine Oil</h2>
+                <p class="mt-1">$21.15</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block img_container" src="./ring.jpeg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Ornaments Jewellery</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Pompeii3 Laser Cutted Engagement Ring</h2>
+                <p class="mt-1">$997.69</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block " src="./ps5.webp">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">PlayStation 5</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">PS5-Console-Horizon-Forbidden-West-Bundle</h2>
+                <p class="mt-1">$712.40</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+<!-- <<<<<<<Footer Starts>>>>>>> -->
+
+
+
+      <footer class="text-center bg-gray-900 text-white">
+        <div class="text-center p-4" style="background-color: rgb(230,241,252);">
+          <p id="ftag">We’d love to hear what you think!</p>
+          <div id="sub">
+          <input id="submit" type="button" value="Give Feedback" Give Feedback>
+          </div>
+          <a class="text-white" href="https://tailwind-elements.com/"></a>
+        </div>
+        <div class="container px-6 pt-6">
+          <div class="flex justify-center mb-6">
+          <div class="grid lg:grid-cols-4 md:grid-cols-2">
+            <div class="mb-6">
+              <h5 class="uppercase font-bold mb-2.5">All Departments</h5>
+      
+              <ul class="list-none mb-0">
+                <li>
+                  <a href="https://www.walmart.com/store/directory" class="text-white">Store Directory
+                    </a>
+                </li>
+                <li>
+                  <a href="https://corporate.walmart.com/" class="text-white">Our Company</a>
+                </li>
+                <li>
+                  <a href="https://marketplace.walmart.com/?utm_source=Walmart.com&utm_medium=link&utm_campaign=footer" class="text-white">Sell on Walmart.com</a>
+                </li>
+                <li>
+                  <a href="https://www.walmart.com/cp/flu-shots-immunizations/1228302" class="text-white">COVID-19 Vaccine Scheduler</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mb-6">
+              <h5 class="uppercase font-bold mb-2.5">
+                
+Accessibility</h5>
+      
+              <ul class="list-none mb-0">
+                <li>
+                  <a href="https://corporate.walmart.com/recalls" class="text-white">Product Recalls</a>
+                </li>
+                <li>
+                  <a href="https://www.walmart.com/account/login?vid=oaoh&tid=0&returnUrl=%2Faccount%2Fcommunications-and-privacy%3Fsection%3Dmarketingemails" class="text-white"> Sign-up for Email</a>
+                </li>
+                <li>
+                  <a href="https://www.walmart.com/taxexempt/" class="text-white"> Tax Exempt Program</a>
+                </li>
+                <li>
+                  <a href="https://www.walmart.com/cp/walmart-mobile-app/1087865?pid=walmart.com&c=Walmart.com%20Site%20Footer" class="text-white">Get the Walmart App</a>
+                </li>
+              </ul>
+            </div>
+      
+            <div class="mb-6">
+              <h5 class="uppercase font-bold mb-2.5">
+                Careers</h5>
+      
+              <ul class="list-none mb-0">
+                <li>
+                  <a href="https://www.walmart.com/help/article/walmart-com-terms-of-use/3b75080af40340d6bbd596f116fae5a0" class="text-white">Terms of Use</a>
+                </li>
+                <li>
+                  <a href="https://corporate.walmart.com/california-transparency" class="text-white">California Supply Chain Act</a>
+                </li>
+                <li>
+                  <a href="https://cpa-ui.walmart.com/affirmation?native=false&app=gm&brandCode=WMT&requestType=optout&params=or6v8svCpaM7lt3p6EFEIp47nKyZsAxr7igVtqcZfuo=&origin=generic" class="text-white">Do Not Sell My Personal Information</a>
+                </li>
+               
+              </ul>
+            </div>
+      
+            <div class="mb-6">
+              <h5 class="uppercase font-bold mb-2.5">Help</h5>
+      
+              <ul class="list-none mb-0">
+                <li>
+                  <a href="https://corporate.walmart.com/privacy-security" class="text-white">Privacy & Security</a>
+                </li>
+                <li>
+                  <a href="https://corporate.walmart.com/privacy-security/california-privacy-rights" class="text-white">CA Privacy Rights</a>
+                </li>
+                <li>
+                  <a href="https://cpa-ui.walmart.com/affirmation?native=false&app=gm&brandCode=WMT&requestType=access&params=or6v8svCpaM7lt3p6EFEIm3E+tBw5OVoOiDynVKfXmk=&origin=generic" class="text-white">Request My Personal Information</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        <div class="text-center p-4" style="background-color: rgb(0,79,154);">
+          © 2022
+          <a class="text-white" href="https://tailwind-elements.com/"> Walmart All Rights Reserved</a>
+        </div>
+      </footer>
+
+</body>
+
+</html>
