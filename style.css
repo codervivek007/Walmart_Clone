@@ -13,6 +13,8 @@
   user-select: none;
 }
 
+
+
 .navbar {
   display: flex;
   box-shadow: 0 0 2px 0 grey;
@@ -47,7 +49,8 @@
 
 .logo img {
   max-width: 40px;
-
+  /* border-style: solid;
+  border-radius: 25px; */
   max-width: 135px;
   margin-left: 8px;
   width: 120px;
@@ -190,7 +193,7 @@
   margin-right: 25px;
   font-weight: 500;
   margin-top: 2px;
-  height: 37px;
+  height: 30px;
   width: 67px;
   
 }
@@ -370,7 +373,7 @@ margin-top:40px !important;
 }
 .img_container{
   margin-left: 34px !important;
-  margin-top: -32px !important;
+  margin-top: 0px !important;
   object-position:initial !important;
   object-fit: contain !important;
 }
@@ -445,8 +448,15 @@ gap: 74px;
     border-radius: 25px !important;
   
   }
-  
-  
 
+.container-footer {
+    max-width: 100% !important;
+}
+  
+  
+.mt-4{
+  margin-left: 100px;
+    margin-top: 0px;
+}
 
   
